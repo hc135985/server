@@ -1,0 +1,292 @@
+2021-05-29 18:35:40,479 ERROR 10772 [-/127.0.0.1/-/2041ms GET /menu/menuList] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1054:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:56:34)
+    at Pool.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:29:7
+    sql: select * from menu
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 10772
+hostname: DESKTOP-JFIEJTP
+
+2021-05-29 21:23:08,175 ERROR 22012 [-/127.0.0.1/-/17ms POST /menu/add] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-content ("name", "path", "level", "parentId") VALUES ('用户列表', '/user', ' at line 1
+    at Query.Sequence._packetToError (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:65:19)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:54:5
+    sql: INSERT INTO menu-content ("name", "path", "level", "parentId") VALUES ('用户列表', '/user', '1', '');
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-content (\"name\", \"path\", \"level\", \"parentId\") VALUES ('用户列表', '/user', ' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO menu-content (\"name\", \"path\", \"level\", \"parentId\") VALUES ('用户列表', '/user', '1', '');"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 22012
+hostname: DESKTOP-JFIEJTP
+
+2021-05-29 21:23:42,541 ERROR 21940 [-/127.0.0.1/-/32ms POST /menu/add] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"name", "path", "level", "parentId") VALUES ('用户列表', '/user', '1', '')' at line 1
+    at Query.Sequence._packetToError (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:65:19)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:54:5
+    sql: INSERT INTO menu ("name", "path", "level", "parentId") VALUES ('用户列表', '/user', '1', '');
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\"name\", \"path\", \"level\", \"parentId\") VALUES ('用户列表', '/user', '1', '')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO menu (\"name\", \"path\", \"level\", \"parentId\") VALUES ('用户列表', '/user', '1', '');"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 21940
+hostname: DESKTOP-JFIEJTP
+
+2021-05-29 21:24:12,670 ERROR 24308 [-/127.0.0.1/-/23ms POST /menu/add] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', '1', '')' at line 1
+    at Query.Sequence._packetToError (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:65:19)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:54:5
+    sql: INSERT INTO menu ('name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', '1', '');
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', '1', '')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO menu ('name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', '1', '');"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 24308
+hostname: DESKTOP-JFIEJTP
+
+2021-05-29 21:24:21,774 ERROR 17412 [-/127.0.0.1/-/18ms POST /menu/add] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', '1', '')' at line 1
+    at Query.Sequence._packetToError (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:65:19)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:54:5
+    sql: INSERT INTO menu ('name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', '1', '');
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', '1', '')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO menu ('name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', '1', '');"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 17412
+hostname: DESKTOP-JFIEJTP
+
+2021-05-29 21:26:49,297 ERROR 23728 [-/127.0.0.1/-/17ms POST /menu/add] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', 1, 0)' at line 1
+    at Query.Sequence._packetToError (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:65:19)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:54:5
+    sql: INSERT INTO menu ('name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', 1, 0);
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', 1, 0)' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO menu ('name', 'path', 'level', 'parentId') VALUES ('用户列表', '/user', 1, 0);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 23728
+hostname: DESKTOP-JFIEJTP
+
+2021-05-29 21:39:13,912 ERROR 8164 [-/127.0.0.1/-/14ms POST /menu/add] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/user' at line 1
+    at Query.Sequence._packetToError (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:65:19)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:54:5
+    sql: select * from menu where 'path'=/user;
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/user' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from menu where 'path'=/user;"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 8164
+hostname: DESKTOP-JFIEJTP
+
+2021-05-29 21:53:28,385 ERROR 24524 [-/127.0.0.1/-/16ms POST /menu/add] nodejs.TypeError: Cannot read property 'mysql' of undefined
+    at Home.menuAdd (C:\Users\86132\Desktop\ltt\cms-home\server\app\service\menu\index.js:30:37)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+    at async MenuController.menuAdd (C:\Users\86132\Desktop\ltt\cms-home\server\app\controller\menu\index.js:16:16)
+    at async C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 24524
+hostname: DESKTOP-JFIEJTP
+
+2021-05-29 21:54:33,813 ERROR 24524 [-/127.0.0.1/-/1ms POST /menu/add] nodejs.TypeError: Cannot read property 'mysql' of undefined
+    at Home.menuAdd (C:\Users\86132\Desktop\ltt\cms-home\server\app\service\menu\index.js:30:37)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+    at async MenuController.menuAdd (C:\Users\86132\Desktop\ltt\cms-home\server\app\controller\menu\index.js:16:16)
+    at async C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 24524
+hostname: DESKTOP-JFIEJTP
+
+2021-05-29 21:56:57,971 ERROR 4728 [-/127.0.0.1/-/20ms POST /menu/add] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '})' at line 1
+    at Query.Sequence._packetToError (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:65:19)
+    at C:\Users\86132\Desktop\ltt\cms-home\server\node_modules\co\index.js:54:5
+    sql: INSERT INTO menu (`name`, `path`, `level`, `parentId`) VALUES ('用户列表', '/user/list', 2, 8});
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '})' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO menu (`name`, `path`, `level`, `parentId`) VALUES ('用户列表', '/user/list', 2, 8});"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 4728
+hostname: DESKTOP-JFIEJTP
+
