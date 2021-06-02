@@ -1,316 +1,320 @@
 {
-  "keys": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
+  "keys": "/Users/lagou/Documents/my-home/server/config/config.default.js",
   "mysql": {
     "client": {
-      "host": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
-      "port": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
-      "user": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
-      "password": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
-      "database": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js"
+      "host": "/Users/lagou/Documents/my-home/server/config/config.default.js",
+      "port": "/Users/lagou/Documents/my-home/server/config/config.default.js",
+      "user": "/Users/lagou/Documents/my-home/server/config/config.default.js",
+      "password": "/Users/lagou/Documents/my-home/server/config/config.default.js",
+      "database": "/Users/lagou/Documents/my-home/server/config/config.default.js"
     },
-    "app": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
-    "agent": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
+    "app": "/Users/lagou/Documents/my-home/server/config/config.default.js",
+    "agent": "/Users/lagou/Documents/my-home/server/config/config.default.js",
     "default": {
-      "database": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-mysql\\config\\config.default.js"
+      "database": "/Users/lagou/Documents/my-home/server/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/lagou/Documents/my-home/server/node_modules/egg-mysql/config/config.default.js"
     }
   },
-  "middleware": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
+  "middleware": "/Users/lagou/Documents/my-home/server/config/config.default.js",
   "security": {
     "csrf": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
-      "type": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/config/config.default.js",
+      "type": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
-    "domainWhiteList": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
     "xframe": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
     }
   },
   "cors": {
-    "origin": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js",
-    "allowMenthods": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\config.default.js"
+    "origin": "/Users/lagou/Documents/my-home/server/config/config.default.js",
+    "allowMenthods": "/Users/lagou/Documents/my-home/server/config/config.default.js"
   },
   "session": {
-    "maxAge": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "/Users/lagou/Documents/my-home/server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lagou/Documents/my-home/server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lagou/Documents/my-home/server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lagou/Documents/my-home/server/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/lagou/Documents/my-home/server/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "/Users/lagou/Documents/my-home/server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lagou/Documents/my-home/server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lagou/Documents/my-home/server/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "/Users/lagou/Documents/my-home/server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lagou/Documents/my-home/server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lagou/Documents/my-home/server/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "/Users/lagou/Documents/my-home/server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lagou/Documents/my-home/server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lagou/Documents/my-home/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lagou/Documents/my-home/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/lagou/Documents/my-home/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lagou/Documents/my-home/server/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "/Users/lagou/Documents/my-home/server/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "/Users/lagou/Documents/my-home/server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lagou/Documents/my-home/server/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "/Users/lagou/Documents/my-home/server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lagou/Documents/my-home/server/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "/Users/lagou/Documents/my-home/server/node_modules/egg-schedule/config/config.default.js"
   },
   "multipart": {
-    "mode": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/config.default.js"
     }
   },
   "development": {
-    "watchDirs": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideIgnore": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "/Users/lagou/Documents/my-home/server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lagou/Documents/my-home/server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lagou/Documents/my-home/server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lagou/Documents/my-home/server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lagou/Documents/my-home/server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/lagou/Documents/my-home/server/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "/Users/lagou/Documents/my-home/server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lagou/Documents/my-home/server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lagou/Documents/my-home/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lagou/Documents/my-home/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lagou/Documents/my-home/server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lagou/Documents/my-home/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lagou/Documents/my-home/server/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "/Users/lagou/Documents/my-home/server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/lagou/Documents/my-home/server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/lagou/Documents/my-home/server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lagou/Documents/my-home/server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lagou/Documents/my-home/server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lagou/Documents/my-home/server/node_modules/egg-static/config/config.default.js"
   },
   "view": {
-    "root": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "/Users/lagou/Documents/my-home/server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lagou/Documents/my-home/server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lagou/Documents/my-home/server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/lagou/Documents/my-home/server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/lagou/Documents/my-home/server/node_modules/egg-view/config/config.default.js"
   },
-  "env": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "name": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "cookies": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "maxIpsCount": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
+  "env": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "name": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "version": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "description": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "private": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
+    "name": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "version": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "description": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "private": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
     "egg": {
-      "declarations": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "declarations": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
-      "egg": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "egg-cors": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "egg-redis": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "egg": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "autod-egg": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "egg-ci": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "eslint-config-egg": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "autod": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "node": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "start": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "stop": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "dev": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "debug": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "test": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "test-local": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "cov": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "lint": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "ci": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "autod": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "start": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "test": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
     "ci": {
-      "version": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "version": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
     "repository": {
-      "type": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "url": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "type": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "url": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
-    "author": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "license": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+    "author": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "license": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "textLimit": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "strict": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
+    "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "depth": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
-    "onerror": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+    "onerror": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
   },
   "logger": {
-    "dir": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "env": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "level": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
+    "dir": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "env": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "level": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.local.js"
     },
-    "allowDebugAtProd": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "logging": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+    "enable": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "port": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "port": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/config.default.js"
 }

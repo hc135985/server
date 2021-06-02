@@ -16,7 +16,6 @@ class Home extends Service {
         return item;
       })
     }
-    console.log(mapList(list))
     return mapList(list)
   }
   async menuAdd({ path, name, parentMenu }) {
@@ -33,6 +32,16 @@ class Home extends Service {
     }
     if (res.affectedRows > 0) return { status: 1, message: '保存成功' };
     return { status: 0, message: '保存失败' };
+  }
+  async menuDetail({ id }) {
+    const sql = `SELECT * FROM menu_content WHERE menuId=${id}`;
+    return await this.app.mysql.query(sql)
+  }
+  async deleteMenu({ id }) {
+    const sql = ``;
+  }
+  async updateMenuContent({ }) {
+    
   }
 }
 

@@ -4,12 +4,12 @@ const Service = require('egg').Service;
 
 class Home extends Service {
   async create({ username, password }) {
-    const userList = await this.app.mysql.query(`SELECT * FROM USER WHERE username="${username}"`);
+    const userList = await this.app.mysql.query(`SELECT * FROM mart.USER WHERE username="${username}"`);
     if (userList.length > 0) {
       return 'USERNAME_EXISTENCE';
     }
     const id = new Date().getTime() + parseInt(Math.random() * 100);
-    const sql = `INSERT INTO user (username, password, id) VALUES ("${username}", "${password}", "${id}");`;
+    const sql = `INSERT INTO mart.user (username, password, id) VALUES ("${username}", "${password}", "${id}");`;
     const result = await this.app.mysql.query(sql);
     return {
       ...result,
@@ -17,7 +17,7 @@ class Home extends Service {
     };
   }
   async login({ username, password }) {
-    const sql = `select * from user where username="${username}" and password="${password}"`;
+    const sql = `select * from mart.user where username="${username}" and password="${password}"`;
     return this.app.mysql.query(sql);
   }
 }

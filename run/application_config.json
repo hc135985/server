@@ -5,6 +5,7 @@
       "key": "EGG_SESS",
       "httpOnly": true,
       "encrypt": true,
+      "logValue": true,
       "overwrite": true,
       "signed": true,
       "autoCommit": true,
@@ -69,6 +70,7 @@
       },
       "ssrf": {
         "ipBlackList": null,
+        "ipExceptionList": null,
         "checkAddress": null
       },
       "_protocolWhiteListSet": "<Set>"
@@ -87,27 +89,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "/Users/lagou/Documents/my-home/server/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-session\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-jsonp\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-onerror\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-i18n\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-watcher\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-schedule\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-development\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-logrotator\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-static\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-view\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-mysql\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-cors\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\locales",
-        "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\locales"
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-session/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-security/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-jsonp/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-onerror/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-i18n/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-watcher/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-schedule/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-development/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-logrotator/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-static/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-view/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-mysql/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg-cors/config/locales",
+        "/Users/lagou/Documents/my-home/server/node_modules/egg/config/locales",
+        "/Users/lagou/Documents/my-home/server/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -118,8 +120,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "/Users/lagou/Documents/my-home/server/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/lagou/Documents/my-home/server/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -142,9 +144,11 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\86132\\AppData\\Local\\Temp\\egg-multipart-tmp\\redis",
+      "allowArrayField": false,
+      "tmpdir": "/var/folders/5s/lwhksg8139b_3zjnmjb_02rr0000gn/T/egg-multipart-tmp/redis",
       "cleanSchedule": {
-        "cron": "0 30 4 * * *"
+        "cron": "0 30 4 * * *",
+        "disable": false
       }
     },
     "development": {
@@ -166,14 +170,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\app\\public",
+      "dir": "/Users/lagou/Documents/my-home/server/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\app\\view",
+      "root": "/Users/lagou/Documents/my-home/server/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -191,7 +195,7 @@
         "port": "3306",
         "user": "root",
         "password": "<String len: 8>",
-        "database": "exam"
+        "database": "mart"
       }
     },
     "cors": {
@@ -257,9 +261,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server",
-    "HOME": "C:\\Users\\86132",
-    "rundir": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\run",
+    "baseDir": "/Users/lagou/Documents/my-home/server",
+    "HOME": "/Users/lagou",
+    "rundir": "/Users/lagou/Documents/my-home/server/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -291,7 +295,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\logs\\redis",
+      "dir": "/Users/lagou/Documents/my-home/server/logs/redis",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -387,8 +391,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-onerror",
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -398,9 +402,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-session",
-      "version": "3.2.0"
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-session",
+      "version": "3.3.0"
     },
     "i18n": {
       "enable": true,
@@ -409,8 +413,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-i18n",
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -420,8 +424,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-watcher",
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -433,9 +437,9 @@
         "schedule"
       ],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-multipart",
-      "version": "2.10.3"
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-multipart",
+      "version": "2.12.0"
     },
     "security": {
       "enable": true,
@@ -446,9 +450,9 @@
         "session"
       ],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-security",
-      "version": "2.8.0"
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-security",
+      "version": "2.9.0"
     },
     "development": {
       "enable": true,
@@ -461,8 +465,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-development",
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -474,8 +478,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-logrotator",
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -485,8 +489,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-schedule",
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -496,8 +500,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-static",
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -509,8 +513,8 @@
         "security"
       ],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-jsonp",
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -520,8 +524,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-view",
+      "from": "/Users/lagou/Documents/my-home/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-view",
       "version": "2.1.3"
     },
     "mysql": {
@@ -531,8 +535,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-mysql",
+      "from": "/Users/lagou/Documents/my-home/server/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-mysql",
       "version": "3.0.0"
     },
     "cors": {
@@ -542,8 +546,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\config\\plugin.js",
-      "path": "C:\\Users\\86132\\Desktop\\ltt\\cms-home\\server\\server\\node_modules\\egg-cors",
+      "from": "/Users/lagou/Documents/my-home/server/config/plugin.js",
+      "path": "/Users/lagou/Documents/my-home/server/node_modules/egg-cors",
       "version": "2.2.3"
     }
   }
